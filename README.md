@@ -1,5 +1,9 @@
-Adafruit CC3000 Breakout PCB
-====================================
+Derivative of the Adafruit CC3000 Breakout PCB
+==============================================
+This is a derivative of the PCB for the Adafruit CC3000 WiFi Breakout. It adds an ATmega1284 and associated circuitry.
+
+# Original Text Follows
+
 This is the PCB for the Adafruit CC3000 WiFi Breakout
 Format is EagleCAD schematic and board layout
 
