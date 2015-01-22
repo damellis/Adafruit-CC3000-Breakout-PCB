@@ -10448,6 +10448,7 @@ Source: www.kingbright.com</description>
 <part name="JP1" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="JP2" library="pinhead" deviceset="PINHD-1X6" device=""/>
 <part name="JP3" library="pinhead" deviceset="PINHD-1X2" device=""/>
+<part name="JP4" library="pinhead" deviceset="PINHD-1X2" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10520,6 +10521,7 @@ Source: www.kingbright.com</description>
 <instance part="JP1" gate="G$1" x="254" y="91.44"/>
 <instance part="JP2" gate="A" x="254" y="58.42"/>
 <instance part="JP3" gate="G$1" x="254" y="121.92"/>
+<instance part="JP4" gate="G$1" x="254" y="137.16"/>
 </instances>
 <busses>
 </busses>
@@ -10759,6 +10761,11 @@ Source: www.kingbright.com</description>
 <wire x1="152.4" y1="93.98" x2="152.4" y2="86.36" width="0.1524" layer="91"/>
 <label x="149.86" y="83.82" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP4" gate="G$1" pin="2"/>
+<wire x1="251.46" y1="137.16" x2="238.76" y2="137.16" width="0.1524" layer="91"/>
+<label x="238.76" y="137.16" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$3" class="0">
 <segment>
@@ -10866,6 +10873,11 @@ Source: www.kingbright.com</description>
 <pinref part="ISP" gate="G$1" pin="VCC"/>
 <wire x1="182.88" y1="162.56" x2="200.66" y2="162.56" width="0.1524" layer="91"/>
 <label x="200.66" y="162.56" size="1.778" layer="95" rot="MR0"/>
+</segment>
+<segment>
+<pinref part="JP4" gate="G$1" pin="1"/>
+<wire x1="251.46" y1="139.7" x2="238.76" y2="139.7" width="0.1524" layer="91"/>
+<label x="238.76" y="139.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VBAT_EN_3V" class="0">
