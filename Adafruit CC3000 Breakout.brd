@@ -160,6 +160,7 @@
 <text x="34.925" y="14.605" size="0.6096" layer="27" ratio="18" rot="R90">GND</text>
 <text x="34.925" y="17.145" size="0.6096" layer="27" ratio="18" rot="R90">PA7</text>
 <text x="34.925" y="19.685" size="0.6096" layer="27" ratio="18" rot="R90">PA6</text>
+<text x="3.81" y="33.02" size="1.016" layer="27" font="vector" ratio="10" rot="R90">Mellis (1/23/2015)</text>
 </plain>
 <libraries>
 <library name="microbuilder">
