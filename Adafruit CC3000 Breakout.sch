@@ -10279,7 +10279,7 @@ Source: www.kingbright.com</description>
 <part name="R3" library="rcl" deviceset="R-US_" device="R1206" value="10K"/>
 <part name="U$22" library="microbuilder" deviceset="VBAT" device=""/>
 <part name="U$35" library="microbuilder" deviceset="U.FL" device=""/>
-<part name="LED1" library="led" deviceset="LED" device="SMT1206" value="green"/>
+<part name="LED1" library="led" deviceset="LED" device="SMT1206" value="Power"/>
 <part name="R1" library="rcl" deviceset="R-US_" device="R1206" value="470"/>
 <part name="U$37" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$38" library="microbuilder" deviceset="VBAT" device=""/>
@@ -10959,74 +10959,84 @@ Source: www.kingbright.com</description>
 <label x="101.6" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="SCL" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="(SCL/PCINT16)PC0"/>
 <pinref part="JP1" gate="G$1" pin="1"/>
 <wire x1="251.46" y1="93.98" x2="223.52" y2="93.98" width="0.1524" layer="91"/>
+<label x="243.84" y="93.98" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="SDA" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="(SDA/PCINT17)PC1"/>
 <pinref part="JP1" gate="G$1" pin="2"/>
 <wire x1="251.46" y1="91.44" x2="223.52" y2="91.44" width="0.1524" layer="91"/>
+<label x="243.84" y="91.44" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="N$11" class="0">
+<net name="RX1" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="(RXD1/INT0/PCINT26)PD2"/>
 <pinref part="JP2" gate="A" pin="1"/>
 <wire x1="251.46" y1="66.04" x2="223.52" y2="66.04" width="0.1524" layer="91"/>
+<label x="243.84" y="66.04" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="N$12" class="0">
+<net name="TX1" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="(TXD1/INT1/PCINT27)PD3"/>
 <pinref part="JP2" gate="A" pin="2"/>
 <wire x1="251.46" y1="63.5" x2="223.52" y2="63.5" width="0.1524" layer="91"/>
+<label x="243.84" y="63.5" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="N$13" class="0">
+<net name="PD4" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="(XCK1/OC1B/PCINT28)PD4"/>
 <pinref part="JP2" gate="A" pin="3"/>
 <wire x1="251.46" y1="60.96" x2="223.52" y2="60.96" width="0.1524" layer="91"/>
+<label x="243.84" y="60.96" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="N$14" class="0">
+<net name="PD5" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="(OC1A/PCINT29)PD5"/>
 <pinref part="JP2" gate="A" pin="4"/>
 <wire x1="251.46" y1="58.42" x2="223.52" y2="58.42" width="0.1524" layer="91"/>
+<label x="243.84" y="58.42" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="N$15" class="0">
+<net name="PD6" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="(OC2B/ICP/PCINT30)PD6"/>
 <pinref part="JP2" gate="A" pin="5"/>
 <wire x1="251.46" y1="55.88" x2="223.52" y2="55.88" width="0.1524" layer="91"/>
+<label x="243.84" y="55.88" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="N$16" class="0">
+<net name="PD7" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="(OC2A/PCINT31)PD7"/>
 <pinref part="JP2" gate="A" pin="6"/>
 <wire x1="251.46" y1="53.34" x2="223.52" y2="53.34" width="0.1524" layer="91"/>
+<label x="243.84" y="53.34" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="N$17" class="0">
+<net name="PA6" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="(ADC6/PCINT6)PA6"/>
 <pinref part="JP3" gate="G$1" pin="1"/>
 <wire x1="251.46" y1="124.46" x2="223.52" y2="124.46" width="0.1524" layer="91"/>
+<label x="243.84" y="124.46" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="N$18" class="0">
+<net name="PA7" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="(ADC7/PCINT7)PA7"/>
 <pinref part="JP3" gate="G$1" pin="2"/>
 <wire x1="251.46" y1="121.92" x2="223.52" y2="121.92" width="0.1524" layer="91"/>
+<label x="243.84" y="121.92" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 </nets>
